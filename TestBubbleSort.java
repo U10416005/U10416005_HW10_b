@@ -21,5 +21,8 @@ public class TestBubbleSort{
 		for(int i = 0;i<quantity;++i){
 			System.out.print(bub[i] + ",");
 		}
+		System.out.println("");
+		BubbleSort og = new BubbleSort(bub,quantity);
+		og.bubArray();
 	}
 }
