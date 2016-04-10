@@ -1,12 +1,17 @@
 //U10416005ªL«Ø¦t
 
 public class BubbleSort{
+	//Data field
 	int[] array;
 	int quantity;
+	
+	//Constructor
 	public BubbleSort(int[] array,int quantity){
 		this.array = array;
 		this.quantity = quantity;
 	}
+	
+	//The bubble sort method
 	public void bubArray(){
 		int hold;
 		for(int i = 0;i<quantity;i++){
@@ -18,6 +23,7 @@ public class BubbleSort{
 				}
 			}
 		}
+		//print the number after bubble sort
 		System.out.println("After BubbleSort:");
 		for(int i = 0;i<quantity;i++){
 			System.out.print(array[i]+",");
